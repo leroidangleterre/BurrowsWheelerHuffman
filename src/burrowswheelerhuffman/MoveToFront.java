@@ -9,7 +9,9 @@ import java.util.ArrayList;
  */
 public class MoveToFront {
 
-    private String defaultAlphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ _";
+    private String defaultAlphabet = "abcdefghijklmnopqrstuvwxyz"
+            + "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            + ".,;!? _";
     private String usedAlphabet;
 
     private String textToEncode;
